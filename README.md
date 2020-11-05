@@ -8,6 +8,12 @@ This mini-course is planned from 12:50pm to 5pm, i.e. with a volume of 4 hours. 
 
 There were max 16 people last week so we can probably expect the same. This would mean a max of 3 breakout rooms.
 
+# Abstract
+
+In this half day event, we will take learners on a tour around HPCCarpentry, discuss it's motivation and short history. We will focus on taking a deep dive at lesson development. We will cover best practices for designing lessons, for designing exercises and adjoint learning objectives to structure the process of community driven open educational resources as we understand them. The course will provide room for self-experimentation based on HPCCarpentry material. If time permits, contributions to open-source material are encouraged. 
+
+To prepare for the event, we would love if participants could bring along statistics on how their HPC site is used. For example, it would be lovely if learners could bring a histogram of (successful) job runtimes and other such summary statistics from your site. Besides that, a stable internet connection, your will to communicate and clear audio quality is all that is needed.
+
 # Agenda
 
 | topic                                        | duration/min | speaker      |
