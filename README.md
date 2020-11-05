@@ -18,11 +18,17 @@ FocusCoE has funded the creation of a template lesson on how to run a community 
 * What are the prerequisites?
 
 ### Breakout session - Review and critique (part of) an episode of the lesson (40 minutes, 30 + 10 for discussion after)
+Assuming 3 breakout rooms, possibile episodes are:
+1. https://fzj-jsc.github.io/tuning_lammps/01-why-bother-with-performance/index.html
+2. https://fzj-jsc.github.io/tuning_lammps/02-hardware-performance/index.html
+3. https://fzj-jsc.github.io/tuning_lammps/03-benchmark-and-scaling/index.html
+
+Some possible points to reflect on are:
 * Are the objectives of the episode clear
   * Are they reflected in the episode content
 * Is the content clear
-  * If there are metaphores, are they clear? Can you suggest improvements?
-  * Are the examples clear? Can they be done in a reasonable amount of time? Are there potential pitfalls?
+  * If there are metaphors, are they clear? Can you suggest improvements?
+  * Are the examples clear? Can they be done in a reasonable amount of time? Are there potential pitfalls? Are they motivating?
   * Is something missing? 
 
 ### How did we tackle lesson portability? (10 minutes)
