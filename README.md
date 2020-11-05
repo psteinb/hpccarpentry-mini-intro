@@ -1,5 +1,5 @@
 # hpccarpentry-mini-intro
-material for our course on hpccarpentry.
+material for our course on hpccarpentry. The agenda is communicated to learners on the [workshop page](https://coderefinery.github.io/2020-11-02-instructor-training/#monday-nov-9-1250---1700-cet). This mini-course is planned from 12:50pm to 5pm, i.e. with a volume of 4 hours.
 
 There were max 16 people last week so we can probably expect the same. This would mean a max of 3 breakout rooms.
 
