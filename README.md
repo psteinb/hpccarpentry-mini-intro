@@ -32,12 +32,19 @@ To prepare for the event, we would love if participants could bring along statis
 
 * Introduction to HPC Carpentry and what it's origins and goals are
 * What HPC Carpentry is *not*
+* how a hpccarpentry lesson is structured?
 
-## Devising Material Overview 
+## Devising Material Overview (20-30 minutes, [slides](slides-lessondesign.html))
 
-* introduce constructive alignment
-* discuss what learner profiles are/how to obtain them 
-* discuss cross checking 
+* how one typically teaches
+* before designing lessons 
+  + learner profiles are/how to obtain them
+  + learning objectives
+  + prequisites
+  + what facilities do lessons provide to make any of the above VC ready?
+* lesson design 
+  + introduce constructive alignment (top-down)
+  + backwards design (bottom-up)
 
 ## Review Preq/Learning Objectives in breakouts
 
@@ -85,3 +92,16 @@ Some possible points to reflect on are:
 ### How did we tackle lesson portability? (10 minutes)
 
 Looking over the strategies we used to allow us to make the lessons portable between resources.
+
+
+# How to use this repo
+
+This repo requires `pandoc` to translate the content from any markdown file to static html pages (which are part of this repo as well). To build, do the following:
+
+```
+$ make prepare (optional)
+# downloads reveal.js
+$ make 
+```
+
+Any files that match `slides-*.md` are the source code for the slidedecks created under `slides-*.html`. For an introduction on how to use pandoc+markdown to create HTML based reveal.js slidedecks, please readup on [pandoc's documentation on slide shows](https://pandoc.org/MANUAL.html#slide-shows).
