@@ -32,6 +32,7 @@ To prepare for the event, we would love if participants could bring along statis
 
 * Introduction to HPC Carpentry and what it's origins and goals are
 * What HPC Carpentry is *not*
+* how a hpccarpentry lesson is structured?
 
 ## Devising Material Overview (20-30 minutes, [slides](slides-lessondesign.html))
 
@@ -40,10 +41,10 @@ To prepare for the event, we would love if participants could bring along statis
   + learner profiles are/how to obtain them
   + learning objectives
   + prequisites
+  + what facilities do lessons provide to make any of the above VC ready?
 * lesson design 
   + introduce constructive alignment (top-down)
   + backwards design (bottom-up)
-* discuss cross checking 
 
 ## Review Preq/Learning Objectives in breakouts
 
