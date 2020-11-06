@@ -32,7 +32,7 @@
 <td style="text-align: center;">Peter</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">Review Preq/Learning Objectives in breakouts</td>
+<td style="text-align: center;">Exercise Pre-Design Topics in breakouts</td>
 <td style="text-align: center;">40</td>
 <td style="text-align: center;">Peter (Alan)</td>
 </tr>
@@ -72,8 +72,9 @@
 <p>Each learner: Take a slip of paper and a pen. Note down the answers for the questions above.</p>
 <h2 id="what-is-hpc-carpentry-20-mins-including-discussion-slides">What is HPC Carpentry? (20 mins including discussion, <a href="slides-hpccarpentry.html">slides</a>)</h2>
 <ul>
-<li>introduction to HPC Carpentry and what it’s origins and goals are</li>
-<li>how an HPC Carpentry lesson is structured?</li>
+<li>Introduction to HPC Carpentry and what it’s origins and goals are</li>
+<li>What HPC Carpentry is <em>not</em></li>
+<li>how a hpccarpentry lesson is structured?</li>
 </ul>
 <h2 id="devising-material-overview-20-30-minutes-slides">Devising Material Overview (20-30 minutes, <a href="slides-lessondesign.html">slides</a>)</h2>
 <ul>
@@ -91,28 +92,62 @@
 <li>backwards design (bottom-up)</li>
 </ul></li>
 </ul>
-<h2 id="review-preqlearning-objectives-in-breakouts">Review Preq/Learning Objectives in breakouts</h2>
+<h2 id="exercise-pre-design-topics">Exercise Pre-Design Topics</h2>
+<h3 id="exercise-learner-profiles">Exercise Learner Profiles</h3>
+<p>(Exercise for all, 5-10 minutes)</p>
+<blockquote>
+<h2 id="environmental-biology">Environmental Biology</h2>
+<p>Y. is an environmental biologist that uses DNA signatures obtained from soils to study species diversity in the environment. She needs to compare DNA sequences to large databases. So far, she has been able to use web-based tools for her limited datasets.</p>
+<p>Recently, Y has started working with much larger datasets, and discovered that the online tool she uses has a limit of 50 entries on the online server. She has heard, it should be possible to run the same tool through the command line, and managed to install it on her local Laptop. Now, however, it takes several days before each of the analyses are finished.</p>
+</blockquote>
+<blockquote>
+<h2 id="physics-or-many-other-domains">Physics (or many other domains!)</h2>
+<p>A new PhD student is given a task to select parameters for their simulation. They need to run a set of calculations on several thousand combinations of parameters. One calculation takes several minutes. They set up the problem on their laptop but quickly realise that it would take more than one month to complete the task. They are told to use local HPC but they are not sure how this would help them.</p>
+</blockquote>
+<ol type="1">
+<li>Compare this to the learner profiles that you have seen so far. What differences do you see?</li>
+<li>Which characteristics do these profiles miss?</li>
+</ol>
+<h3 id="learning-objectives-1">Learning Objectives 1</h3>
+<p>(Exercise for all, groups of 2, 10 minutes plus 10 to compare)</p>
+<p>Formulating Learning Objectives can be hard. We introduced <a href="https://teachtogether.tech/en/index.html#ref-Ande2001">Bloom’s Taxonomy</a> in the presentation.</p>
+<p>Before you start this exercise, give yourself a rating (5 stars = you will complete this exercise with ease, 1 star = you will struggle with this exercise and likely not complete it). Write this rating down somewhere.</p>
+<p>Join up in pairs and formulate one sentence for each of the taxonomy categories (typical verbs to use are listed in brackets at the end of each bullet).</p>
+<blockquote>
 <ul>
-<li>work in groups on hpc-intro</li>
-<li>obtain learning goals from personas</li>
-<li>review learning objectives and prerequisites for modules
-<ul>
-<li>split learners in groups to match the modules of hpc-intro</li>
-<li>TODO: define review questions for learners</li>
-<li>motivate PRs to submit to hpc-intro</li>
-<li>fall-back material (if time allows): most likely hpc-shell (or hpc-python)</li>
-</ul></li>
+<li><p><strong>Remembering:</strong> Exhibit memory of previously learned material by recalling facts, terms, basic concepts, and answers. (recognize, list, describe, name, find) Understanding:</p></li>
+<li><p><strong>Understanding:</strong> Demonstrate understanding of facts and ideas by organizing, comparing, translating, interpreting, giving descriptions, and stating main ideas. (interpret, summarize, paraphrase, classify, explain)</p></li>
+<li><p><strong>Applying:</strong> Solve new problems by applying acquired knowledge, facts, techniques and rules in a different way. (build, identify, use, plan, select)</p></li>
+<li><p><strong>Analyzing:</strong> Examine and break information into parts by identifying motives or causes; make inferences and find evidence to support generalizations. (compare, contrast, simplify)</p></li>
+<li><p><strong>Evaluating:</strong> Present and defend opinions by making judgments about information, validity of ideas, or quality of work based on a set of criteria. (check, choose, critique, prove, rate)</p></li>
+<li><p><strong>Creating:</strong> Compile information together in a different way by combining elements in a new pattern or proposing alternative solutions. (design, construct, improve, adapt, maximize, solve)</p></li>
 </ul>
+</blockquote>
+<p>As an example, choose one of the following topics: - <code>ssh</code> - <code>scp</code> - any single command from the HPC domain that you could teach</p>
+<p>At the end of this exercise, each pair should have at least 6 sentences available - one for each of the categories above.</p>
+<p>After we compared the learning objectives, rate yourself again with 1 to 5 starts. Compare this rating to what you wrote down before the task. If the ratings are the same, congratulations! If the ratings differ, what does that tell you?</p>
+<h3 id="learning-objectives-2">Learning Objectives 2</h3>
+<p>(Exercise for all, 6 breakout rooms for each of hpc-intro episodes 12-17.md, 10minutes + 10 to compare)</p>
+<p>Learning objectives are a key ingredient in either backwards lesson design or constructive alignment. Consider the HPCCarpentry learner profiles from above. Derive at least six high level learning objectives from them. Compare them! Is there anything missing?</p>
+<h3 id="learning-objectives-3">Learning Objectives 3</h3>
+<p>(Exercise for all, 6 breakout rooms for each of hpc-intro episodes 12-17.md, 10minutes + 10 to compare)</p>
+<p>Each breakout room is assigned one hpc-intro lesson. - https://hpc-carpentry.github.io/hpc-intro/12-cluster/index.html, <a href="https://github.com/hpc-carpentry/hpc-intro/blob/gh-pages/_episodes/12-cluster.md">src</a> - https://hpc-carpentry.github.io/hpc-intro/13-scheduler/index.html, <a href="https://github.com/hpc-carpentry/hpc-intro/blob/gh-pages/_episodes/13-scheduler.md">src</a> - https://hpc-carpentry.github.io/hpc-intro/14-modules/index.html, <a href="https://github.com/hpc-carpentry/hpc-intro/blob/gh-pages/_episodes/14-modules.md">src</a> - https://hpc-carpentry.github.io/hpc-intro/15-transferring-files/index.html, <a href="https://github.com/hpc-carpentry/hpc-intro/blob/gh-pages/_episodes/15-transferring-files.md">src</a> - https://hpc-carpentry.github.io/hpc-intro/16-parallel/index.html, <a href="https://github.com/hpc-carpentry/hpc-intro/blob/gh-pages/_episodes/16-parallel.md">src</a> - https://hpc-carpentry.github.io/hpc-intro/17-resources/index.html, <a href="https://github.com/hpc-carpentry/hpc-intro/blob/gh-pages/_episodes/17-resources.md">src</a></p>
+<p>Consider the objectives in the episode frontmatter (top part of the <code>.md</code> file that reads like <code>yaml</code>). Which of the learning objectives found here match those that you isolated in Learning Objectives 2?</p>
+<p>Create a list of: - which LOs match the list you obtained from the personas? - which LOs are missing that relate to the topic at hand? - which LOs are listed that do not match to any persona?</p>
 <h2 id="review-exercises-in-breakouts">Review Exercises in breakouts</h2>
+<p>Formative assessment (for the teacher and for the student) and summative assessment (where learners are graded and teaching outcomes are collected) are two essential tools to effective teaching.</p>
+<p>For a recap of exercise types and templates, consult <a href="https://third-bit.com/2017/10/16/exercise-types.html">this post</a>.</p>
+<p>Each breakout room is assigned one hpc-intro lesson. - https://hpc-carpentry.github.io/hpc-intro/12-cluster/index.html, <a href="https://github.com/hpc-carpentry/hpc-intro/blob/gh-pages/_episodes/12-cluster.md">src</a> - https://hpc-carpentry.github.io/hpc-intro/13-scheduler/index.html, <a href="https://github.com/hpc-carpentry/hpc-intro/blob/gh-pages/_episodes/13-scheduler.md">src</a> - https://hpc-carpentry.github.io/hpc-intro/14-modules/index.html, <a href="https://github.com/hpc-carpentry/hpc-intro/blob/gh-pages/_episodes/14-modules.md">src</a> - https://hpc-carpentry.github.io/hpc-intro/15-transferring-files/index.html, <a href="https://github.com/hpc-carpentry/hpc-intro/blob/gh-pages/_episodes/15-transferring-files.md">src</a> - https://hpc-carpentry.github.io/hpc-intro/16-parallel/index.html, <a href="https://github.com/hpc-carpentry/hpc-intro/blob/gh-pages/_episodes/16-parallel.md">src</a> - https://hpc-carpentry.github.io/hpc-intro/17-resources/index.html, <a href="https://github.com/hpc-carpentry/hpc-intro/blob/gh-pages/_episodes/17-resources.md">src</a></p>
+<h3 id="review-exercises-1-5-minutes">Review Exercises 1 (5 minutes)</h3>
+<p>Go through your hpc-intro lesson. Classifiy existing exercises as formative or summative.</p>
+<h3 id="review-exercises-2-20-minutes-10min-for-comparison-of-prs">Review Exercises 2 (20 minutes + 10min for comparison of PRs)</h3>
+<p>Go through your hpc-intro lesson. Conceive at least one more exercise as a group!</p>
 <ul>
-<li>work in groups on hpc-intro</li>
-<li>review exercises
-<ul>
-<li>what are exercises for self-affirmation/self-assessment</li>
-<li>what are exercises for discovering misunderstandings</li>
-<li>base this on Greg Wilsons exercise examples</li>
-</ul></li>
+<li>first identify which learning objective you want to tackle</li>
+<li>decide if a formative or summative targetted exercise is helpful to the lesson</li>
+<li>create PR to the repo with this exercise (we will discuss this PR when reconvening)</li>
 </ul>
+<h3 id="wrap-up">Wrap-up</h3>
 <h2 id="lesson-development-for-centres-of-excellence">Lesson development for Centres of Excellence</h2>
 <p>FocusCoE has funded the creation of a template lesson on how to run a community code <strong>at scale</strong>. The idea being that such a lesson might be useful to CoEs who typically have a marquee scalable application. We chose LAMMPS as the test case because it is used heavily by the E-CAM community and development on top of LAMMPS is very common.</p>
 <h3 id="overview-of-lesson-design-20-minutes">Overview of lesson design (20 minutes)</h3>
