@@ -1,16 +1,16 @@
 ---
 type: slide
+author: <br> <a href="https://github.com/psteinb"><i class="fab fa-github-square"></i> psteinb</a>   <a href="https://twitter.com/psteinb_"><span class="fab fa-twitter-square"></span> psteinb_</a>
+title: What is HPC Carpentry?
+subtitle: <a href="mailto:p.steinbach@hzdr.de">Peter Steinbach</a> <br> (HZDR)
+date: Nov 9, 2020
+width: 1920
+height: 1080
 slideOptions:
   transition: slide
   center: True
 ---
 
-# HPCCarpentry
-
-Peter Steinbach
-Nov 9, 2020
-
----
 
 # Why?
 
@@ -50,9 +50,9 @@ from [psteinb/hpc-in-a-day](https://github.com/psteinb/hpc-in-a-day.git)
 
 ## What happened after
 
-- 14 hpc-in-a-day workshops taught (about 10-12 attendance each)
+- 14 hpc-in-a-day workshops taught (about 10-15 attendance each)
 - 4 contributions at conferences (2x CarpentryCon2018, 1x CarpentryCon2020, 1x ISC BoF Paper)
-- helping to build a community ...
+- helping to build a community ... [hpc-carpentry](https://github.com/hpc-carpentry?type=source)
 
 Today!
 
@@ -62,19 +62,21 @@ Today!
 
 ----
 
-## [Learner Profiles](https://hpc-carpentry.github.io/why-hpc-carpentry) 1
+## [Target Audience(s)](https://hpc-carpentry.github.io/why-hpc-carpentry)
 
-- Knowlededgeable in their (non-computational!) domain
+- scientists or HPC users knowlededgeable in their (non-computational!) domain
 - Priority is to get their work done, not necessarily to learn about computers
-- Doesn’t know what large scale computing (Cloud? HPC? Grid?) is or why it can help them; may think that programs will automatically run faster on a cluster
+- Doesn’t know what large scale computing (Cloud? HPC? Grid?) is or why it can help them  
+  (may think that programs will automatically run faster on a cluster)
 
 ----
 
-## [Learner Profiles](https://hpc-carpentry.github.io/why-hpc-carpentry) 2
+## [Many Learners ...](https://hpc-carpentry.github.io/why-hpc-carpentry)
 
 - Haven’t used a shared system before
 - Are not familiar with many of the terms (threads, cores) or concepts (scheduling) that are key to running on a shared batch system
-- May have some command line or programming experience, but not necessarily; may have only used GUIs in the past
+- May have some command line or programming experience, but not necessarily
+- may have only used GUIs in the past
 
 ----
 
@@ -94,6 +96,13 @@ Today!
 
 ## Lessons: Mix and Match
 
+- [hpc-carpentry/hpc-intro](https://github.com/hpc-carpentry/hpc-intro) (very active repo)
+- [hpc-carpentry/hpc-shell](https://github.com/hpc-carpentry/hpc-shell) (some activity)
+- [hpc-carpentry/hpc-python](https://github.com/hpc-carpentry/hpc-python) (no activity)
+- [hpc-carpentry/hpc-chapel](https://github.com/hpc-carpentry/hpc-chapel) (legacy repo)
+
+&nbsp;
+
 https://github.com/hpc-carpentry/hpc-carpentry.github.io/blob/master/our-lessons.md
 
 ----
@@ -112,6 +121,10 @@ from the 2020 [carpentries long-term assessment report](https://carpentries.gith
 
 ---
 
+# What HPCCarpentry is not?
+
+To be filled by Alan.
+
 # A Way forward
 
 ----
@@ -119,18 +132,11 @@ from the 2020 [carpentries long-term assessment report](https://carpentries.gith
 ## A Task Force ...
 
 - to establish community processes
+- monthly meeting calls
 - implement lightweight, transparent and fair governance
 - to sharpen and nourish the material
 
 For details: [Lesson Program Incubation Roadmap](https://docs.carpentries.org/topic_folders/governance/lesson-program-policy.html#lesson-program-incubation-roadmap)
-
-----
-
-## [Concretely](https://github.com/hpc-carpentry/coordination/issues/17)
-
-- Minimum/maximum sizes (1/4)
-- Time commitment (co-working time of 1 hour a week)
-- Lifetime (3 months, renewable)
 
 ----
 
