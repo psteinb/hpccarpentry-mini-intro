@@ -1,7 +1,7 @@
 DTAPP ?= $(HOME)/node_modules/.bin/decktape
 
-SOURCES=$(wildcard *md)
-TARGETS=$(SOURCES:%md=%html) index.html
+SLIDES=$(wildcard slides*md)
+TARGETS=$(SLIDES:%md=%html) index.html
 
 all : $(TARGETS)
 
@@ -21,7 +21,7 @@ prepare : reveal.js
 help_pandoc_theme.html :
 	@pandoc -D revealjs > pandoc_theme.html
 
-slides-%.html : slides-%.md #reveal.js/css/theme/hzdr.css
+slides-%.html : slides-%.md
 	@pandoc -t revealjs -s -o $@ $< \
 	-V revealjs-url=./reveal.js \
 	-V theme=white \
