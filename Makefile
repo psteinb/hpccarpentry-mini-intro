@@ -25,8 +25,7 @@ slides-%.html : slides-%.md
 	@pandoc -t revealjs -s -o $@ $< \
 	-V revealjs-url=./reveal.js \
 	-V theme=white \
-	--css="./extras/fontawesome/css/all.min.css"
-	#--css="./custom.css" \
+	--css="./extras/fontawesome/css/all.min.css" #--css="./custom.css" \
 
 index.html : README.md
 	pandoc -o $@ $<

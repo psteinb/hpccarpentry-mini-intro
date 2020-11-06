@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="   psteinb  psteinb_">
+  <title>Lesson Design in 30 Minutes</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="./reveal.js/css/reset.css">
+  <link rel="stylesheet" href="./reveal.js/css/reveal.css">
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="./reveal.js/css/theme/white.css" id="theme">
+  <link rel="stylesheet" href="./extras/fontawesome/css/all.min.css"/>
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? './reveal.js/css/print/pdf.css' : './reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="./reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Lesson Design in 30 Minutes</h1>
+  <p class="subtitle"><a href="mailto:p.steinbach@hzdr.de">Peter Steinbach</a> <br> (HZDR)</p>
+  <p class="author"><br> <a href="https://github.com/psteinb"><i class="fab fa-github-square"></i> psteinb</a> <a href="https://twitter.com/psteinb_"><span class="fab fa-twitter-square"></span> psteinb_</a></p>
+  <p class="date">Nov 9, 2020</p>
+</section>
+
+<section><section id="mission-impossible" class="title-slide slide level1"><h1>Mission Impossible</h1></section><section id="section" class="slide level2">
+<h2></h2>
+<figure>
+<img data-src="https://upload.wikimedia.org/wikipedia/en/a/a1/Mission_Impossible_-_1988_DVD.jpg" style="width:70.0%" alt="" /><figcaption>licensed for fair use</figcaption>
+</figure>
+</section><section id="most-common-approach-for-lesson-design" class="slide level2">
+<h2>Most common approach for lesson design</h2>
+<p>Most people design lessons like this (from <a href="TeachTogether%5E">TeachTogether</a>):</p>
+<div>
+<ol type="1">
+<li class="fragment"><p>Someone asks you to teach something you barely know or haven’t thought about in years.</p></li>
+<li class="fragment"><p>You start writing slides to explain what you know about the subject.</p></li>
+<li class="fragment"><p>After 2 or 3 weeks, you make up an assignment based on what you’ve taught so far.</p></li>
+<li class="fragment"><p>You repeat step 3 several times.</p></li>
+<li class="fragment"><p>You stay awake into the wee hours of the morning to create a final exam and promise yourself that you’ll be more organized next time.</p></li>
+</ol>
+</div>
+</section><section id="this-presentation" class="slide level2">
+<h2>this presentation!</h2>
+<ul>
+<li>(skipped) how learning works</li>
+<li>before designing lessons (ground work)</li>
+<li>lesson design (building the house)</li>
+<li>(skipped) quality control</li>
+</ul>
+<p><span class="fab fa-tachometer-alt"></span></p>
+</section></section>
+<section><section id="before-designing-lessons" class="title-slide slide level1"><h1>before designing lessons</h1></section><section id="there-is-no-coding-gene" class="slide level2">
+<h2>there is no coding gene</h2>
+<blockquote>
+<p>Presenting a novice with a pile of facts is counter-productive because they don’t yet have a model to fit those facts into.</p>
+</blockquote>
+<div class="fragment">
+<blockquote>
+<p>In fact, presenting too many facts too soon can actually reinforce the incorrect mental model they’ve cobbled together.</p>
+</blockquote>
+</div>
+<div class="fragment">
+<p><strong>HPC is no exception!</strong></p>
+</div>
+</section><section id="how-to-obtain-learner-profiles" class="slide level2">
+<h2>how to obtain learner profiles</h2>
+<div>
+<ul>
+<li class="fragment">learner profiles are never static (revise at regular intervals)</li>
+<li class="fragment">get the frequencies right (more MPI jobs, more single core jobs, …)</li>
+<li class="fragment">use pre-workshop surveys as data source</li>
+<li class="fragment">polls are tricky to attract all users/peers</li>
+</ul>
+</div>
+</section><section id="tie-personas-to-strategies" class="slide level2">
+<h2>Tie Personas to Strategies</h2>
+<figure>
+<img data-src="https://hepsoftwarefoundation.org/images/training/training-pyramid.png" style="width:70.0%" alt="" /><figcaption><a href="https://hepsoftwarefoundation.org/workinggroups/training.html">HEP Software Foundation - CERN</a></figcaption>
+</figure>
+</section><section id="make-strategy-actionable" class="slide level2">
+<h2>Make Strategy Actionable</h2>
+<figure>
+<img data-src="images/archer2-training.jpg" style="width:70.0%" alt="" /><figcaption><a href="https://www.archer2.ac.uk/training/courses/">Archer2 Course Curriculum</a></figcaption>
+</figure>
+</section><section id="learning-objectives" class="slide level2">
+<h2>learning objectives</h2>
+<ul>
+<li>derived from and coupled to personas</li>
+<li>optional: match formal approaches in day-to-day routines</li>
+</ul>
+<div class="fragment">
+<ul>
+<li>formulation of learning objectives
+<ul>
+<li><a href="https://teachtogether.tech/en/index.html#ref-Ande2001">Bloom’s Taxonomy</a></li>
+<li><a href="https://teachtogether.tech/en/index.html#ref-Fink2013">Fink’s Taxonomy</a></li>
+</ul></li>
+</ul>
+</div>
+</section><section id="blooms-taxonomy" class="slide level2">
+<h2>Bloom’s Taxonomy</h2>
+<div>
+<ul>
+<li class="fragment"><p><strong>Remembering:</strong> Exhibit memory of previously learned material by recalling facts, terms, basic concepts, and answers. (recognize, list, describe, name, find) Understanding:</p></li>
+<li class="fragment"><p><strong>Understanding:</strong> Demonstrate understanding of facts and ideas by organizing, comparing, translating, interpreting, giving descriptions, and stating main ideas. (interpret, summarize, paraphrase, classify, explain)</p></li>
+<li class="fragment"><p><strong>Applying:</strong> Solve new problems by applying acquired knowledge, facts, techniques and rules in a different way. (build, identify, use, plan, select)</p></li>
+<li class="fragment"><p><strong>Analyzing:</strong> Examine and break information into parts by identifying motives or causes; make inferences and find evidence to support generalizations. (compare, contrast, simplify)</p></li>
+<li class="fragment"><p><strong>Evaluating:</strong> Present and defend opinions by making judgments about information, validity of ideas, or quality of work based on a set of criteria. (check, choose, critique, prove, rate)</p></li>
+<li class="fragment"><p><strong>Creating:</strong> Compile information together in a different way by combining elements in a new pattern or proposing alternative solutions. (design, construct, improve, adapt, maximize, solve)</p></li>
+</ul>
+</div>
+</section><section id="prequisites" class="slide level2">
+<h2>prequisites</h2>
+<ul>
+<li>communicate prerequisites on equal importance as the expectations/content</li>
+<li>hard to get this right</li>
+<li>benefit of community development: many autonmous pairs of eyes</li>
+</ul>
+<div class="fragment">
+<ul>
+<li>approach:
+<ul>
+<li>learning objectives</li>
+<li>prequisites</li>
+<li>rinse-and-repeat!</li>
+</ul></li>
+</ul>
+</div>
+</section></section>
+<section><section id="lesson-design" class="title-slide slide level1"><h1>lesson design</h1></section><section id="backwards-design-bottom-up-test-first" class="slide level2">
+<h2>backwards design (bottom-up, test first)</h2>
+<div>
+<ol type="1">
+<li class="fragment"><p>learner personas: who you are trying to help and what will appeal to them!</p></li>
+<li class="fragment"><p>Brainstorm what and what not to cover: how? problems or misconceptions? (concept maps!K) can help a lot at this stage (Section 3.1).</p></li>
+<li class="fragment"><p>summative assessment to define your overall goal. (final exam or capstone project)</p></li>
+<li class="fragment"><p>formative assessments to practice (use for feedback to teacher and learner)</p></li>
+<li class="fragment"><p>Order the formative assessments to create a course outline</p></li>
+<li class="fragment"><p>Write material (1 hour = 3-5 episodes incl formative assessment)</p></li>
+<li class="fragment"><p>Write a summary description</p></li>
+</ol>
+</div>
+</section><section id="constructive-alignment" class="slide level2">
+<h2>constructive alignment</h2>
+<figure>
+<img data-src="https://www.ntu.edu.sg/tlpd/tlr/DesigningYourCourse/OBTL/PublishingImages/obtl3.jpg" alt="" /><figcaption><a href="https://www.ntu.edu.sg/tlpd/tlr/DesigningYourCourse/OBTL/Pages/ConstructiveAlignment.aspx">Outcomes Based Teaching &amp; Learning</a></figcaption>
+</figure>
+</section><section id="constructive-alignment-approach" class="slide level2">
+<h2>constructive alignment approach</h2>
+<div>
+<ol type="1">
+<li class="fragment">define learning outcomes (LO)</li>
+<li class="fragment">design teaching activities</li>
+<li class="fragment">design assessment activites</li>
+<li class="fragment">start over (e.g. on finer level of detail) if not at the end</li>
+</ol>
+</div>
+</section><section id="constructive-alignment-example" class="slide level2">
+<h2>constructive alignment example</h2>
+<figure>
+<img data-src="images/TeachingML_Fiebrink_ECMLPKDDDWorkshop_p11.svg" style="width:80.0%" alt="" /><figcaption>from <a href="https://teaching-ml.github.io/2020/download/TeachingML_Fiebrink_ECMLPKDDDWorkshop.pdf">Rebecca Fiebrink, Didactics of Data. ECMLPKDD 2020 workshop on teaching ML</a></figcaption>
+</figure>
+</section><section id="backwards-design-and-constructive-alignment" class="slide level2">
+<h2>backwards design and constructive alignment</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>iterative approach</li>
+<li>assessment first</li>
+<li>content second</li>
+<li>in nature: bottom-up approach</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>iterative approach</li>
+<li>content and assessment equally important</li>
+<li>encourages: top-down approach</li>
+</ul>
+</div>
+</div>
+</section></section>
+<section><section id="summary" class="title-slide slide level1"><h1>Summary</h1></section><section id="recap" class="slide level2">
+<h2>Recap</h2>
+<ul>
+<li>doing the ground work is equally important than the lesson content<br />
+(personas, objectives, prerequisites, context)</li>
+<li>two approaches to lessons design:
+<ul>
+<li>backwards design</li>
+<li>constructive alignment</li>
+</ul></li>
+</ul>
+<div class="fragment">
+<p>Let’s Exercise!</p>
+</div>
+</section></section>
+<section id="references" class="title-slide slide level1"><h1>References</h1></section>
+    </div>
+  </div>
+
+  <script src="./reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1920,
+        height: 1080,
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: './reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: './reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
