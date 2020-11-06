@@ -18,7 +18,7 @@ To prepare for the event, we would love if participants could bring along statis
 
 | topic                                        | duration/min | speaker      |
 |:--------------------------------------------:|:------------:|:------------:|
-| HPC Carpentry?                               | 20           | Alan/Peter   |
+| [HPC Carpentry?](slides-hpccarpentry.html)   | 20           | Alan/Peter   |
 | Devising Material Overview                   | 20-30        | Peter        |
 | Review Preq/Learning Objectives in breakouts | 40           | Peter (Alan) |
 | Review Exercises in breakouts                | 40           | Peter (Alan) |
@@ -28,7 +28,7 @@ To prepare for the event, we would love if participants could bring along statis
 | wrap-up/feedback                             | 10           | Alan/Peter   |
 
 
-## What is HPC Carpentry? (20 mins including discussion, [slides]())
+## What is HPC Carpentry? (20 mins including discussion, [slides](slides-hpccarpentry.html))
 
 * Introduction to HPC Carpentry and what it's origins and goals are
 * What HPC Carpentry is *not*
