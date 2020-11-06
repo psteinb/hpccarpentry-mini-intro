@@ -37,9 +37,9 @@ slideOptions:
 * Can then reference these in the lessons:
 ```bash
 # Include output of a bash command
-``~~~``
+~~~
 {% include {{ site.snippets }}/modules/available-modules.snip %}
-``~~~``
+~~~
 {: .language-bash}
 
 # Reference a site variable
