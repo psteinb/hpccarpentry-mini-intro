@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
-  <title>slides-hpccarpentry</title>
+  <meta name="author" content="   psteinb  psteinb_">
+  <title>What is HPC Carpentry?</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -33,11 +34,13 @@
   <div class="reveal">
     <div class="slides">
 
-
-<section id="hpccarpentry" class="slide level1">
-<h1>HPCCarpentry</h1>
-<p>Peter Steinbach Nov 9, 2020</p>
+<section id="title-slide">
+  <h1 class="title">What is HPC Carpentry?</h1>
+  <p class="subtitle"><a href="mailto:p.steinbach@hzdr.de">Peter Steinbach</a> <br> (HZDR)</p>
+  <p class="author"><br> <a href="https://github.com/psteinb"><i class="fab fa-github-square"></i> psteinb</a> <a href="https://twitter.com/psteinb_"><span class="fab fa-twitter-square"></span> psteinb_</a></p>
+  <p class="date">Nov 9, 2020</p>
 </section>
+
 <section id="why" class="slide level1">
 <h1>Why?</h1>
 <figure>
@@ -70,9 +73,9 @@ Date:   Tue Dec 6 09:58:31 2016 +0100
 
 <h2 id="what-happened-after">What happened after</h2>
 <ul>
-<li>14 hpc-in-a-day workshops taught (about 10-12 attendance each)</li>
+<li>14 hpc-in-a-day workshops taught (about 10-15 attendance each)</li>
 <li>4 contributions at conferences (2x CarpentryCon2018, 1x CarpentryCon2020, 1x ISC BoF Paper)</li>
-<li>helping to build a community …</li>
+<li>helping to build a community … <a href="https://github.com/hpc-carpentry?type=source">hpc-carpentry</a></li>
 </ul>
 <p>Today!</p>
 </section>
@@ -81,20 +84,22 @@ Date:   Tue Dec 6 09:58:31 2016 +0100
 </section>
 <section class="slide level1">
 
-<h2 id="learner-profiles-1"><a href="https://hpc-carpentry.github.io/why-hpc-carpentry">Learner Profiles</a> 1</h2>
+<h2 id="target-audiences"><a href="https://hpc-carpentry.github.io/why-hpc-carpentry">Target Audience(s)</a></h2>
 <ul>
-<li>Knowlededgeable in their (non-computational!) domain</li>
+<li>scientists or HPC users knowlededgeable in their (non-computational!) domain</li>
 <li>Priority is to get their work done, not necessarily to learn about computers</li>
-<li>Doesn’t know what large scale computing (Cloud? HPC? Grid?) is or why it can help them; may think that programs will automatically run faster on a cluster</li>
+<li>Doesn’t know what large scale computing (Cloud? HPC? Grid?) is or why it can help them<br />
+(may think that programs will automatically run faster on a cluster)</li>
 </ul>
 </section>
 <section class="slide level1">
 
-<h2 id="learner-profiles-2"><a href="https://hpc-carpentry.github.io/why-hpc-carpentry">Learner Profiles</a> 2</h2>
+<h2 id="many-learners"><a href="https://hpc-carpentry.github.io/why-hpc-carpentry">Many Learners …</a></h2>
 <ul>
 <li>Haven’t used a shared system before</li>
 <li>Are not familiar with many of the terms (threads, cores) or concepts (scheduling) that are key to running on a shared batch system</li>
-<li>May have some command line or programming experience, but not necessarily; may have only used GUIs in the past</li>
+<li>May have some command line or programming experience, but not necessarily</li>
+<li>may have only used GUIs in the past</li>
 </ul>
 </section>
 <section class="slide level1">
@@ -111,6 +116,13 @@ Date:   Tue Dec 6 09:58:31 2016 +0100
 <section class="slide level1">
 
 <h2 id="lessons-mix-and-match">Lessons: Mix and Match</h2>
+<ul>
+<li><a href="https://github.com/hpc-carpentry/hpc-intro">hpc-carpentry/hpc-intro</a> (very active repo)</li>
+<li><a href="https://github.com/hpc-carpentry/hpc-shell">hpc-carpentry/hpc-shell</a> (some activity)</li>
+<li><a href="https://github.com/hpc-carpentry/hpc-python">hpc-carpentry/hpc-python</a> (no activity)</li>
+<li><a href="https://github.com/hpc-carpentry/hpc-chapel">hpc-carpentry/hpc-chapel</a> (legacy repo)</li>
+</ul>
+<p> </p>
 <p>https://github.com/hpc-carpentry/hpc-carpentry.github.io/blob/master/our-lessons.md</p>
 </section>
 <section class="slide level1">
@@ -124,6 +136,10 @@ Date:   Tue Dec 6 09:58:31 2016 +0100
 <p><img data-src="https://carpentries.github.io/assessment/learner-assessment/figures/2020-01-longterm-recommendation_score-1.png" /></p>
 <p>from the 2020 <a href="https://carpentries.github.io/assessment/learner-assessment/reports/2020-01-long-term-report.html#respondents_career_stage">carpentries long-term assessment report</a></p>
 </section>
+<section id="what-hpccarpentry-is-not" class="slide level1">
+<h1>What HPCCarpentry is not?</h1>
+<p>To be filled by Alan.</p>
+</section>
 <section id="a-way-forward" class="slide level1">
 <h1>A Way forward</h1>
 </section>
@@ -132,19 +148,11 @@ Date:   Tue Dec 6 09:58:31 2016 +0100
 <h2 id="a-task-force">A Task Force …</h2>
 <ul>
 <li>to establish community processes</li>
+<li>monthly meeting calls</li>
 <li>implement lightweight, transparent and fair governance</li>
 <li>to sharpen and nourish the material</li>
 </ul>
 <p>For details: <a href="https://docs.carpentries.org/topic_folders/governance/lesson-program-policy.html#lesson-program-incubation-roadmap">Lesson Program Incubation Roadmap</a></p>
-</section>
-<section class="slide level1">
-
-<h2 id="concretely"><a href="https://github.com/hpc-carpentry/coordination/issues/17">Concretely</a></h2>
-<ul>
-<li>Minimum/maximum sizes (1/4)</li>
-<li>Time commitment (co-working time of 1 hour a week)</li>
-<li>Lifetime (3 months, renewable)</li>
-</ul>
 </section>
 <section class="slide level1">
 
@@ -163,6 +171,11 @@ Date:   Tue Dec 6 09:58:31 2016 +0100
       Reveal.initialize({
         // Push each slide change to the browser history
         history: true,
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1920,
+        height: 1080,
 
         // Optional reveal.js plugins
         dependencies: [
