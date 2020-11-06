@@ -18,21 +18,20 @@ To prepare for the event, we would love if participants could bring along statis
 
 | topic                                        | duration/min | speaker      |
 |:--------------------------------------------:|:------------:|:------------:|
-| [HPC Carpentry?](slides-hpccarpentry.html)   | 20           | Alan/Peter   |
+| [HPC Carpentry](slides-hpccarpentry.html)    | 20           | Alan/Peter   |
 | Devising Material Overview                   | 20-30        | Peter        |
 | Review Preq/Learning Objectives in breakouts | 40           | Peter (Alan) |
 | Review Exercises in breakouts                | 40           | Peter (Alan) |
-| FocusCoE overview                            | 20           | Alan         |
+| [FocusCoE overview](slides-focuscoe.html)    | 20           | Alan         |
 | FocusCoE breakouts+discussion                | 40           | Alan (Peter) |
-| portability of lessons                       | 10           | Alan         |
+| Portability of lessons                       | 10           | Alan         |
 | wrap-up/feedback                             | 10           | Alan/Peter   |
 
 
 ## What is HPC Carpentry? (20 mins including discussion, [slides](slides-hpccarpentry.html))
 
-* Introduction to HPC Carpentry and what it's origins and goals are
-* What HPC Carpentry is *not*
-* how a hpccarpentry lesson is structured?
+* introduction to HPC Carpentry and what it's origins and goals are
+* how an HPC Carpentry lesson is structured?
 
 ## Devising Material Overview (20-30 minutes, [slides](slides-lessondesign.html))
 

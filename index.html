@@ -17,7 +17,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;"><a href="slides-hpccarpentry.html">HPC Carpentry?</a></td>
+<td style="text-align: center;"><a href="slides-hpccarpentry.html">What is HPC Carpentry?</a></td>
 <td style="text-align: center;">20</td>
 <td style="text-align: center;">Alan/Peter</td>
 </tr>
@@ -37,7 +37,7 @@
 <td style="text-align: center;">Peter (Alan)</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">FocusCoE overview</td>
+<td style="text-align: center;"><a href="slides-focuscoe.html">FocusCoE overview</a></td>
 <td style="text-align: center;">20</td>
 <td style="text-align: center;">Alan</td>
 </tr>
@@ -47,7 +47,7 @@
 <td style="text-align: center;">Alan (Peter)</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">portability of lessons</td>
+<td style="text-align: center;">Portability of lessons</td>
 <td style="text-align: center;">10</td>
 <td style="text-align: center;">Alan</td>
 </tr>
@@ -60,14 +60,24 @@
 </table>
 <h2 id="what-is-hpc-carpentry-20-mins-including-discussion-slides">What is HPC Carpentry? (20 mins including discussion, <a href="slides-hpccarpentry.html">slides</a>)</h2>
 <ul>
-<li>Introduction to HPC Carpentry and what it’s origins and goals are</li>
-<li>What HPC Carpentry is <em>not</em></li>
+<li>introduction to HPC Carpentry and what it’s origins and goals are</li>
+<li>how an HPC Carpentry lesson is structured?</li>
 </ul>
-<h2 id="devising-material-overview">Devising Material Overview</h2>
+<h2 id="devising-material-overview-20-30-minutes-slides">Devising Material Overview (20-30 minutes, <a href="slides-lessondesign.html">slides</a>)</h2>
 <ul>
-<li>introduce constructive alignment</li>
-<li>discuss what learner profiles are/how to obtain them</li>
-<li>discuss cross checking</li>
+<li>how one typically teaches</li>
+<li>before designing lessons
+<ul>
+<li>learner profiles are/how to obtain them</li>
+<li>learning objectives</li>
+<li>prequisites</li>
+<li>what facilities do lessons provide to make any of the above VC ready?</li>
+</ul></li>
+<li>lesson design
+<ul>
+<li>introduce constructive alignment (top-down)</li>
+<li>backwards design (bottom-up)</li>
+</ul></li>
 </ul>
 <h2 id="review-preqlearning-objectives-in-breakouts">Review Preq/Learning Objectives in breakouts</h2>
 <ul>
@@ -104,3 +114,9 @@
 <p>Some possible points to reflect on are: * Are the objectives of the episode clear * Are they reflected in the episode content * Is the content clear * If there are metaphors, are they clear? Can you suggest improvements? * Are the examples clear? Can they be done in a reasonable amount of time? Are there potential pitfalls? Are they motivating? * Is something missing?</p>
 <h3 id="how-did-we-tackle-lesson-portability-10-minutes">How did we tackle lesson portability? (10 minutes)</h3>
 <p>Looking over the strategies we used to allow us to make the lessons portable between resources.</p>
+<h1 id="how-to-use-this-repo">How to use this repo</h1>
+<p>This repo requires <code>pandoc</code> to translate the content from any markdown file to static html pages (which are part of this repo as well). To build, do the following:</p>
+<pre><code>$ make prepare (optional)
+# downloads reveal.js
+$ make </code></pre>
+<p>Any files that match <code>slides-*.md</code> are the source code for the slidedecks created under <code>slides-*.html</code>. For an introduction on how to use pandoc+markdown to create HTML based reveal.js slidedecks, please readup on <a href="https://pandoc.org/MANUAL.html#slide-shows">pandoc’s documentation on slide shows</a>.</p>
