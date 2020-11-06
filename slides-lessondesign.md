@@ -45,7 +45,9 @@ Most people design lessons like this (from [TeachTogether](TeachTogether^)):
 - lesson design (building the house)
 - (skipped) quality control
 
-<span class="fab fa-tachometer-alt"></span>
+. . .
+
+Details and further reading: [Greg Wilson, Teaching Tech Together, 2019, CRC Press](https://teachtogether.tech/en/index.html#)
 
 # before designing lessons 
 
@@ -84,6 +86,7 @@ Most people design lessons like this (from [TeachTogether](TeachTogether^)):
 
 - derived from and coupled to personas
 - optional: match formal approaches in day-to-day routines
+- watch out: learning objectives versus learning outcomes
 
 . . . 
 
@@ -165,7 +168,7 @@ Understanding:
 
 ## constructive alignment example
 
-![from [Rebecca Fiebrink, Didactics of Data. ECMLPKDD 2020 workshop on teaching ML](https://teaching-ml.github.io/2020/download/TeachingML_Fiebrink_ECMLPKDDDWorkshop.pdf)](images/TeachingML_Fiebrink_ECMLPKDDDWorkshop_p11.svg){ width=80% }
+![from [Rebecca Fiebrink, Didactics of Data. ECMLPKDD 2020 workshop on teaching ML](https://teaching-ml.github.io/2020/download/TeachingML_Fiebrink_ECMLPKDDDWorkshop.pdf)](images/TeachingML_Fiebrink_ECMLPKDDDWorkshop_p11.png){ width=70% }
 
 ## backwards design and constructive alignment
 
