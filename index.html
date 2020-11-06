@@ -1,0 +1,106 @@
+<h1 id="hpccarpentry-mini-intro">hpccarpentry-mini-intro</h1>
+<p>This repo comprises material for our course on hpccarpentry at the 2020 CodeRefinery Instructor training (Nov 2,3,9).</p>
+<p>The agenda is communicated to learners on the <a href="https://coderefinery.github.io/2020-11-02-instructor-training/#monday-nov-9-1250---1700-cet">workshop page</a>.</p>
+<p>This mini-course is planned from 12:50pm to 5pm, i.e. with a volume of 4 hours. Excluding breaks, we have 3h 20 minutes to our disposal. This README.md is meant as a coarse guideline and central dispatch to further resources.</p>
+<p>There were max 16 people last week so we can probably expect the same. This would mean a minumum of 3 breakout rooms.</p>
+<h1 id="abstract">Abstract</h1>
+<p>In this half day event, we will take learners on a tour around HPCCarpentry, discuss it’s motivation and short history. We will focus on taking a deep dive at lesson development. We will cover best practices for designing lessons, for designing exercises and adjoint learning objectives to structure the process of community driven open educational resources as we understand them. The course will conclude by discussing how application specific teaching materials can be set up and which pitfalls to avoid in this domain. The course will provide room for self-experimentation based on HPCCarpentry material and teaching modules. If time permits, contributions to open-source material are encouraged.</p>
+<p>To prepare for the event, we would love if participants could bring along statistics on how their HPC site is used. For example, it would be lovely if learners could bring a histogram of (successful) job runtimes and other such summary statistics from your site. Besides that, a stable internet connection, your will to communicate and clear audio quality is all that is needed.</p>
+<h1 id="agenda">Agenda</h1>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">topic</th>
+<th style="text-align: center;">duration/min</th>
+<th style="text-align: center;">speaker</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><a href="slides-hpccarpentry.html">HPC Carpentry?</a></td>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">Alan/Peter</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Devising Material Overview</td>
+<td style="text-align: center;">20-30</td>
+<td style="text-align: center;">Peter</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Review Preq/Learning Objectives in breakouts</td>
+<td style="text-align: center;">40</td>
+<td style="text-align: center;">Peter (Alan)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Review Exercises in breakouts</td>
+<td style="text-align: center;">40</td>
+<td style="text-align: center;">Peter (Alan)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">FocusCoE overview</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">Alan</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">FocusCoE breakouts+discussion</td>
+<td style="text-align: center;">40</td>
+<td style="text-align: center;">Alan (Peter)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">portability of lessons</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">Alan</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">wrap-up/feedback</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">Alan/Peter</td>
+</tr>
+</tbody>
+</table>
+<h2 id="what-is-hpc-carpentry-20-mins-including-discussion-slides">What is HPC Carpentry? (20 mins including discussion, <a href="slides-hpccarpentry.html">slides</a>)</h2>
+<ul>
+<li>Introduction to HPC Carpentry and what it’s origins and goals are</li>
+<li>What HPC Carpentry is <em>not</em></li>
+</ul>
+<h2 id="devising-material-overview">Devising Material Overview</h2>
+<ul>
+<li>introduce constructive alignment</li>
+<li>discuss what learner profiles are/how to obtain them</li>
+<li>discuss cross checking</li>
+</ul>
+<h2 id="review-preqlearning-objectives-in-breakouts">Review Preq/Learning Objectives in breakouts</h2>
+<ul>
+<li>work in groups on hpc-intro</li>
+<li>obtain learning goals from personas</li>
+<li>review learning objectives and prerequisites for modules
+<ul>
+<li>split learners in groups to match the modules of hpc-intro</li>
+<li>TODO: define review questions for learners</li>
+<li>motivate PRs to submit to hpc-intro</li>
+<li>fall-back material (if time allows): most likely hpc-shell (or hpc-python)</li>
+</ul></li>
+</ul>
+<h2 id="review-exercises-in-breakouts">Review Exercises in breakouts</h2>
+<ul>
+<li>work in groups on hpc-intro</li>
+<li>review exercises
+<ul>
+<li>what are exercises for self-affirmation/self-assessment</li>
+<li>what are exercises for discovering misunderstandings</li>
+<li>base this on Greg Wilsons exercise examples</li>
+</ul></li>
+</ul>
+<h2 id="lesson-development-for-centres-of-excellence">Lesson development for Centres of Excellence</h2>
+<p>FocusCoE has funded the creation of a template lesson on how to run a community code <strong>at scale</strong>. The idea being that such a lesson might be useful to CoEs who typically have a marquee scalable application. We chose LAMMPS as the test case because it is used heavily by the E-CAM community and development on top of LAMMPS is very common.</p>
+<h3 id="overview-of-lesson-design-20-minutes">Overview of lesson design (20 minutes)</h3>
+<ul>
+<li>What are the learner profiles?</li>
+<li>What are the objectives?</li>
+<li>What are the prerequisites?</li>
+</ul>
+<h3 id="breakout-session---review-and-critique-part-of-an-episode-of-the-lesson-40-minutes-30-10-for-discussion-after">Breakout session - Review and critique (part of) an episode of the lesson (40 minutes, 30 + 10 for discussion after)</h3>
+<p>Assuming 3 breakout rooms, possibile episodes are: 1. https://fzj-jsc.github.io/tuning_lammps/01-why-bother-with-performance/index.html 2. https://fzj-jsc.github.io/tuning_lammps/02-hardware-performance/index.html 3. https://fzj-jsc.github.io/tuning_lammps/03-benchmark-and-scaling/index.html</p>
+<p>Some possible points to reflect on are: * Are the objectives of the episode clear * Are they reflected in the episode content * Is the content clear * If there are metaphors, are they clear? Can you suggest improvements? * Are the examples clear? Can they be done in a reasonable amount of time? Are there potential pitfalls? Are they motivating? * Is something missing?</p>
+<h3 id="how-did-we-tackle-lesson-portability-10-minutes">How did we tackle lesson portability? (10 minutes)</h3>
+<p>Looking over the strategies we used to allow us to make the lessons portable between resources.</p>
