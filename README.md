@@ -19,14 +19,14 @@ To prepare for the event, we would love if participants could bring along statis
 | topic                                                  | duration/min | speaker      |
 |:------------------------------------------------------:|:------------:|:------------:|
 | Preface                                                | 2            | Peter        |
-| [HPC Carpentry?](slides-hpccarpentry.html)             | 20           | Alan/Peter   |
+| [HPC Carpentry](slides-hpccarpentry.html)              | 20           | Alan/Peter   |
 | [Devising Material Overview](slides-lessondesign.html) | 20-30        | Peter        |
 | Review Preq/Learning Objectives in breakouts           | 40           | Peter (Alan) |
 | Review Exercises in breakouts                          | 40           | Peter (Alan) |
-| FocusCoE overview                                      | 20           | Alan         |
+| [FocusCoE overview](slides-focuscoe.html)              | 20           | Alan         |
 | FocusCoE breakouts+discussion                          | 40           | Alan (Peter) |
-| portability of lessons                                 | 10           | Alan         |
-| wrap-up/feedback                                       | 10           | Alan/Peter   |
+| Portability of lessons                                 | 10           | Alan         |
+| Wrap-up/feedback                                       | 10           | Alan/Peter   |
 
 
 ## Preface
@@ -40,9 +40,8 @@ Each learner: Take a slip of paper and a pen. Note down the answers for the ques
 
 ## What is HPC Carpentry? (20 mins including discussion, [slides](slides-hpccarpentry.html))
 
-* Introduction to HPC Carpentry and what it's origins and goals are
-* What HPC Carpentry is *not*
-* how a hpccarpentry lesson is structured?
+* introduction to HPC Carpentry and what it's origins and goals are
+* how an HPC Carpentry lesson is structured?
 
 ## Devising Material Overview (20-30 minutes, [slides](slides-lessondesign.html))
 
@@ -86,7 +85,7 @@ FocusCoE has funded the creation of a template lesson on how to run a community 
 
 ### Breakout session - Review and critique (part of) an episode of the lesson (40 minutes, 30 + 10 for discussion after)
 
-Assuming 3 breakout rooms, possibile episodes are:
+Assuming 3 breakout rooms, possible episodes are:
 1. https://fzj-jsc.github.io/tuning_lammps/01-why-bother-with-performance/index.html
 2. https://fzj-jsc.github.io/tuning_lammps/02-hardware-performance/index.html
 3. https://fzj-jsc.github.io/tuning_lammps/03-benchmark-and-scaling/index.html
