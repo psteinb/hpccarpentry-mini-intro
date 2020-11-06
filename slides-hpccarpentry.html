@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>slides-hpccarpentry</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="./reveal.js/css/reset.css">
+  <link rel="stylesheet" href="./reveal.js/css/reveal.css">
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="./reveal.js/css/theme/white.css" id="theme">
+  <link rel="stylesheet" href="./extras/fontawesome/css/all.min.css"/>
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? './reveal.js/css/print/pdf.css' : './reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="./reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+
+<section id="hpccarpentry" class="slide level1">
+<h1>HPCCarpentry</h1>
+<p>Peter Steinbach Nov 9, 2020</p>
+</section>
+<section id="why" class="slide level1">
+<h1>Why?</h1>
+<figure>
+<img data-src="https://codimd.carpentries.org/uploads/upload_cd252ac1692b698586ad38338b01e57c.png" alt="" /><figcaption>CC-BY 4.0, Peter Steinbach</figcaption>
+</figure>
+<p>for some the above is fear!</p>
+</section>
+<section class="slide level1">
+
+<h2 id="fear-creativity">Fear != Creativity</h2>
+<p><img data-src="https://images.pexels.com/photos/3679049/pexels-photo-3679049.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" /></p>
+<p>HPC should be a piece of <a href="https://www.pexels.com/photo/child-in-green-shirt-and-black-shorts-sitting-on-ground-3679049/">chalk</a>.</p>
+</section>
+<section class="slide level1">
+
+<h2 id="solve-the-bigger-questions">Solve the bigger questions</h2>
+<p><img data-src="https://unsplash.com/photos/PVdSNmvizYo/download?force=true&amp;w=1920" /></p>
+</section>
+<section class="slide level1">
+
+<h2 id="so-i-sat-down">So I sat down …</h2>
+<pre><code>commit 9a584e9fe0fa1009e0cc32228684ca1685038364
+Author: steinbac &lt;steinbac@mpi-cbg.de&gt;
+Date:   Tue Dec 6 09:58:31 2016 +0100
+
+    added learning outline as a basis for discussion</code></pre>
+<p>from <a href="https://github.com/psteinb/hpc-in-a-day.git">psteinb/hpc-in-a-day</a></p>
+</section>
+<section class="slide level1">
+
+<h2 id="what-happened-after">What happened after</h2>
+<ul>
+<li>14 hpc-in-a-day workshops taught (about 10-12 attendance each)</li>
+<li>4 contributions at conferences (2x CarpentryCon2018, 1x CarpentryCon2020, 1x ISC BoF Paper)</li>
+<li>helping to build a community …</li>
+</ul>
+<p>Today!</p>
+</section>
+<section id="a-hpccarpentry-workshop" class="slide level1">
+<h1>A HPCCarpentry Workshop</h1>
+</section>
+<section class="slide level1">
+
+<h2 id="learner-profiles-1"><a href="https://hpc-carpentry.github.io/why-hpc-carpentry">Learner Profiles</a> 1</h2>
+<ul>
+<li>Knowlededgeable in their (non-computational!) domain</li>
+<li>Priority is to get their work done, not necessarily to learn about computers</li>
+<li>Doesn’t know what large scale computing (Cloud? HPC? Grid?) is or why it can help them; may think that programs will automatically run faster on a cluster</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="learner-profiles-2"><a href="https://hpc-carpentry.github.io/why-hpc-carpentry">Learner Profiles</a> 2</h2>
+<ul>
+<li>Haven’t used a shared system before</li>
+<li>Are not familiar with many of the terms (threads, cores) or concepts (scheduling) that are key to running on a shared batch system</li>
+<li>May have some command line or programming experience, but not necessarily; may have only used GUIs in the past</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="communicate">Communicate!</h2>
+<p><strong>Challenge</strong>: Communicate who you want to address with a course!</p>
+<p>(Yet Missing: Create Pre-Workshop Survey)</p>
+</section>
+<section class="slide level1">
+
+<h2 id="diversity-of-learners">Diversity of Learners!</h2>
+<p><img data-src="https://codimd.carpentries.org/uploads/upload_be8be4f6f80fe10d0bc72eecad530233.svg" /></p>
+</section>
+<section class="slide level1">
+
+<h2 id="lessons-mix-and-match">Lessons: Mix and Match</h2>
+<p>https://github.com/hpc-carpentry/hpc-carpentry.github.io/blob/master/our-lessons.md</p>
+</section>
+<section class="slide level1">
+
+<h2 id="lesson-proposals">Lesson Proposals</h2>
+<p>https://github.com/hpc-carpentry/coordination/issues</p>
+</section>
+<section class="slide level1">
+
+<h2 id="how-good-are-we">How Good are we?</h2>
+<p><img data-src="https://carpentries.github.io/assessment/learner-assessment/figures/2020-01-longterm-recommendation_score-1.png" /></p>
+<p>from the 2020 <a href="https://carpentries.github.io/assessment/learner-assessment/reports/2020-01-long-term-report.html#respondents_career_stage">carpentries long-term assessment report</a></p>
+</section>
+<section id="a-way-forward" class="slide level1">
+<h1>A Way forward</h1>
+</section>
+<section class="slide level1">
+
+<h2 id="a-task-force">A Task Force …</h2>
+<ul>
+<li>to establish community processes</li>
+<li>implement lightweight, transparent and fair governance</li>
+<li>to sharpen and nourish the material</li>
+</ul>
+<p>For details: <a href="https://docs.carpentries.org/topic_folders/governance/lesson-program-policy.html#lesson-program-incubation-roadmap">Lesson Program Incubation Roadmap</a></p>
+</section>
+<section class="slide level1">
+
+<h2 id="concretely"><a href="https://github.com/hpc-carpentry/coordination/issues/17">Concretely</a></h2>
+<ul>
+<li>Minimum/maximum sizes (1/4)</li>
+<li>Time commitment (co-working time of 1 hour a week)</li>
+<li>Lifetime (3 months, renewable)</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="thank-you-for-coming">Thank you for coming!</h2>
+<p>I appreciate every minute you spend with us and are willing to donate to the project.</p>
+</section>
+    </div>
+  </div>
+
+  <script src="./reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: './reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: './reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
