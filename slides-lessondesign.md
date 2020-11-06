@@ -13,11 +13,35 @@ slideOptions:
 
 # Mission Impossible
 
-![licensed for fair use](https://upload.wikimedia.org/wikipedia/en/a/a1/Mission_Impossible_-_1988_DVD.jpg)
+![licensed for fair use](https://upload.wikimedia.org/wikipedia/en/a/a1/Mission_Impossible_-_1988_DVD.jpg){ width=70% }
+
 
 ## Most common approach for lesson design
 
+Most people design lessons like this (from [TeachTogether^]):
+
+::: incremental
+
+1. Someone asks you to teach something you barely know or haven’t thought about in years.
+
+2. You start writing slides to explain what you know about the subject.
+
+3. After 2 or 3 weeks, you make up an assignment based on what you’ve taught so far.
+
+4. You repeat step 3 several times.
+
+5. You stay awake into the wee hours of the morning to create a final exam and promise yourself that you’ll be more organized next time.
+
+:::
+
+
 ## this presentation!
+
+- before designing lessons
+- lesson design
+- (skipped) quality control
+
+
 
 # before designing lessons 
 
@@ -37,3 +61,6 @@ slideOptions:
 
 # Summary
 
+# References
+
+[TeachTogether^]: https://teachtogether.tech/en/index.html#
