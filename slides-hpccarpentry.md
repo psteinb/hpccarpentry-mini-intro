@@ -138,7 +138,7 @@ from the 2020 [carpentries long-term assessment report](https://carpentries.gith
 # Where can HPC Carpentry fit in?
 ## [Archer2](https://www.archer2.ac.uk/training/courses/) as an example 
 
-![](https://i.imgur.com/jYNJ1nl.png)
+![[Archer2 Course Curriculum](https://www.archer2.ac.uk/training/courses/)](images/archer2-training.jpg){ width=70% }
 
 ::: notes
 

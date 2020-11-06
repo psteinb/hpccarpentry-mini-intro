@@ -21,11 +21,11 @@ To prepare for the event, we would love if participants could bring along statis
 | Preface                                                | 2            | Peter        |
 | [HPC Carpentry](slides-hpccarpentry.html)              | 20           | Alan/Peter   |
 | [Devising Material Overview](slides-lessondesign.html) | 20-30        | Peter        |
-| Exercise Pre-Design Topics  in breakouts           | 40           | Peter (Alan) |
+| Exercise Pre-Design Topics  in breakouts               | 40           | Peter (Alan) |
 | Review Exercises in breakouts                          | 40           | Peter (Alan) |
 | [FocusCoE overview](slides-focuscoe.html)              | 20           | Alan         |
 | FocusCoE breakouts+discussion                          | 40           | Alan (Peter) |
-| Portability of lessons                                 | 10           | Alan         |
+| [Portability of lessons](slides-portability.html)      | 10           | Alan         |
 | Wrap-up/feedback                                       | 10           | Alan/Peter   |
 
 
