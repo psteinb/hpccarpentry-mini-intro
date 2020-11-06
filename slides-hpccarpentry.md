@@ -58,7 +58,7 @@ Today!
 
 ---
 
-# A HPCCarpentry Workshop
+# An HPC Carpentry Workshop
 
 ----
 
@@ -107,6 +107,20 @@ https://github.com/hpc-carpentry/hpc-carpentry.github.io/blob/master/our-lessons
 
 ----
 
+## Let's take a tour: [hpc-carpentry/hpc-intro](https://github.com/hpc-carpentry/hpc-intro)
+
+<iframe width="100%" height="800" src="https://hpc-carpentry.github.io/hpc-intro/" frameborder="0"></iframe>
+
+::: notes
+
+- Show basic navigation: landing page, episodes, instructors notes,...
+- Finish with "Improve this page" to bring us back to talking about the edits/issues
+- You can't iframe a GitHub repo so if you want to show the repo, you need to leave the slideshow 
+
+:::
+
+----
+
 ## Lesson Proposals
 
 https://github.com/hpc-carpentry/coordination/issues
@@ -121,9 +135,19 @@ from the 2020 [carpentries long-term assessment report](https://carpentries.gith
 
 ---
 
-# What HPCCarpentry is not?
+# Where can HPC Carpentry fit in?
+## [Archer2](https://www.archer2.ac.uk/training/courses/) as an example 
 
-To be filled by Alan.
+![](https://i.imgur.com/jYNJ1nl.png)
+
+::: notes
+
+- HPC Carpentry is designed to be *scalable*
+- It is oriented towards novices, it does not replace intermediate or advanced training
+
+:::
+
+---
 
 # A Way forward
 
