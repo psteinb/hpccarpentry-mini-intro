@@ -165,7 +165,7 @@ Understanding:
 
 ## constructive alignment example
 
-![from [Rebecca Fiebrink, Didactics of Data. ECMLPKDD 2020 workshop on teaching ML](https://teaching-ml.github.io/2020/download/TeachingML_Fiebrink_ECMLPKDDDWorkshop.pdf)](images/TeachingML_Fiebrink_ECMLPKDDDWorkshop_p11.svg){ width=80% }
+![from [Rebecca Fiebrink, Didactics of Data. ECMLPKDD 2020 workshop on teaching ML](https://teaching-ml.github.io/2020/download/TeachingML_Fiebrink_ECMLPKDDDWorkshop.pdf)](images/TeachingML_Fiebrink_ECMLPKDDDWorkshop_p11.png){ width=70% }
 
 ## backwards design and constructive alignment
 
