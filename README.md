@@ -4,9 +4,9 @@ This repo comprises material for our course on hpccarpentry at the 2020 CodeRefi
 
 The agenda is communicated to learners on the [workshop page](https://coderefinery.github.io/2020-11-02-instructor-training/#monday-nov-9-1250---1700-cet). 
 
-This mini-course is planned from 12:50pm to 5pm, i.e. with a volume of 4 hours. Excluding breaks, we have 3h 20 minutes to our disposal. This README.md is meant as a coarse guideline.
+This mini-course is planned from 12:50pm to 5pm, i.e. with a volume of 4 hours. Excluding breaks, we have 3h 20 minutes to our disposal. This README.md is meant as a coarse guideline and central dispatch to further resources.
 
-There were max 16 people last week so we can probably expect the same. This would mean a max of 3 breakout rooms.
+There were max 16 people last week so we can probably expect the same. This would mean a minumum of 3 breakout rooms.
 
 # Abstract
 
@@ -28,7 +28,7 @@ To prepare for the event, we would love if participants could bring along statis
 | wrap-up/feedback                             | 10           | Alan/Peter   |
 
 
-## What is HPC Carpentry? (20 mins, including discussion)
+## What is HPC Carpentry? (20 mins including discussion, [slides]())
 
 * Introduction to HPC Carpentry and what it's origins and goals are
 * What HPC Carpentry is *not*
