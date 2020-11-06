@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="   ocaisa">
+  <title>Lesson development within FocusCoE</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="./reveal.js/css/reveal.css">
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="./reveal.js/css/theme/white.css" id="theme">
+  <link rel="stylesheet" href="./extras/fontawesome/css/all.min.css"/>
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? './reveal.js/css/print/pdf.css' : './reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="./reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Lesson development within FocusCoE</h1>
+  <p class="subtitle"><a href="mailto:a.ocais@fz-juelich.de">Alan O’Cais</a> <br> (JSC)</p>
+  <p class="author"><br> <a href="https://github.com/ocaisa"><i class="fab fa-github-square"></i> ocaisa</a></p>
+  <p class="date">Nov 9, 2020</p>
+</section>
+
+<section id="focuscoe" class="slide level2">
+<h2>FocusCoE</h2>
+<ul>
+<li>HPC CoE Coordination and Support Action</li>
+<li>One pillar is “Training”
+<ul>
+<li>Workshops (like this one on pedagogy)</li>
+<li>Training registry</li>
+<li><strong>Template training course(s)</strong></li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="framework">Framework</h3>
+<div>
+<ul>
+<li class="fragment">Use Carpentries lesson template</li>
+<li class="fragment">Focus on application codes
+<ul>
+<li class="fragment">Collaboration with E-CAM</li>
+</ul></li>
+<li class="fragment">Address some cross-cutting topics (at a novice level)
+<ul>
+<li class="fragment">Architecture</li>
+<li class="fragment">Performance</li>
+<li class="fragment">Scalability</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="why-lammps">Why LAMMPS?</h3>
+<ul>
+<li>Large user community (and common in E-CAM)</li>
+<li>Architecture support
+<ul>
+<li>Different packages available</li>
+</ul></li>
+<li>Scalable</li>
+<li>Plugin support means many “added value” developers exist</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="section"></h3>
+<ul>
+<li>Learner profiles
+<ul>
+<li></li>
+</ul></li>
+<li>Prerequisites
+<ul>
+<li></li>
+</ul></li>
+<li>Objectives
+<ul>
+<li></li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="section-1"></h3>
+</section>
+<section class="slide level2">
+
+<h3 id="section-2"></h3>
+</section>
+<section id="thank-you-for-coming" class="slide level2">
+<h2>Thank you for coming!</h2>
+<p>I appreciate every minute you spend with us and are willing to donate to the project.</p>
+</section>
+    </div>
+  </div>
+
+  <script src="./reveal.js/lib/js/head.min.js"></script>
+  <script src="./reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1920,
+        height: 1080,
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: './reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: './reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
