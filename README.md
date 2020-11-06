@@ -43,11 +43,17 @@ Each learner: Take a slip of paper and a pen. Note down the answers for the ques
 * Introduction to HPC Carpentry and what it's origins and goals are
 * What HPC Carpentry is *not*
 
-## Devising Material Overview 
+## Devising Material Overview (20-30 minutes, [slides](slides-lessondesign.html))
 
-* introduce constructive alignment
-* discuss what learner profiles are/how to obtain them 
-* discuss cross checking 
+* how one typically teaches
+* before designing lessons 
+  + learner profiles are/how to obtain them
+  + learning objectives
+  + prequisites
+* lesson design 
+  + introduce constructive alignment (top-down)
+  + backwards design (bottom-up)
+* discuss 
 
 ## Review Preq/Learning Objectives in breakouts
 
