@@ -85,7 +85,7 @@ FocusCoE has funded the creation of a template lesson on how to run a community 
 
 ### Breakout session - Review and critique (part of) an episode of the lesson (40 minutes, 30 + 10 for discussion after)
 
-Assuming 3 breakout rooms, possibile episodes are:
+Assuming 3 breakout rooms, possible episodes are:
 1. https://fzj-jsc.github.io/tuning_lammps/01-why-bother-with-performance/index.html
 2. https://fzj-jsc.github.io/tuning_lammps/02-hardware-performance/index.html
 3. https://fzj-jsc.github.io/tuning_lammps/03-benchmark-and-scaling/index.html

@@ -33,6 +33,7 @@ slideOptions:
   * Architecture
   * Performance
   * Scalability
+- Blueprint with reusable components
 
 :::
 
@@ -65,14 +66,29 @@ slideOptions:
 
 ### Lesson walk through
 
-
+<iframe width="100%" height="800" src="https://fzj-jsc.github.io/tuning_lammps/" frameborder="0"></iframe>
 
 ---
 
-### 
+### Breakout session
 
-----
+* Assuming 3 breakout rooms, possible episodes are:
+  * [01-why-bother-with-performance](https://fzj-jsc.github.io/tuning_lammps/01-why-bother-with-performance/index.html)
+  * [02-hardware-performance](https://fzj-jsc.github.io/tuning_lammps/02-hardware-performance/index.html)
+  * [03-benchmark-and-scaling](https://fzj-jsc.github.io/tuning_lammps/03-benchmark-and-scaling/index.html)
+* Are the objectives of the episode clear
+  * Are they reflected in the episode content?
+* Is the content clear
+  * If there are metaphors, are they clear? Can you suggest improvements?
+  * Are the examples clear?
+    - Can they be done in a reasonable amount of time?
+    - Are there potential pitfalls?
+    - Are they motivating?
+  * Is something missing?
 
-## Thank you for coming!
+---
 
-I appreciate every minute you spend with us and are willing to donate to the project.
+## Thank you for helping!
+
+* Very happy to receive [Issues](https://github.com/FZJ-JSC/tuning_lammps/issues)
+* Even happier to have [Pull Requests](https://github.com/FZJ-JSC/tuning_lammps/pulls)!
