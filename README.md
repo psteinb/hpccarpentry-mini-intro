@@ -16,17 +16,17 @@ To prepare for the event, we would love if participants could bring along statis
 
 # Agenda
 
-| topic                                        | duration/min | speaker      |
-|:--------------------------------------------:|:------------:|:------------:|
-| Preface                                      | 2            | Peter        |
-| [HPC Carpentry?](slides-hpccarpentry.html)   | 20           | Alan/Peter   |
-| Devising Material Overview                   | 20-30        | Peter        |
-| Review Preq/Learning Objectives in breakouts | 40           | Peter (Alan) |
-| Review Exercises in breakouts                | 40           | Peter (Alan) |
-| FocusCoE overview                            | 20           | Alan         |
-| FocusCoE breakouts+discussion                | 40           | Alan (Peter) |
-| portability of lessons                       | 10           | Alan         |
-| wrap-up/feedback                             | 10           | Alan/Peter   |
+| topic                                                  | duration/min | speaker      |
+|:------------------------------------------------------:|:------------:|:------------:|
+| Preface                                                | 2            | Peter        |
+| [HPC Carpentry?](slides-hpccarpentry.html)             | 20           | Alan/Peter   |
+| [Devising Material Overview](slides-lessondesign.html) | 20-30        | Peter        |
+| Review Preq/Learning Objectives in breakouts           | 40           | Peter (Alan) |
+| Review Exercises in breakouts                          | 40           | Peter (Alan) |
+| FocusCoE overview                                      | 20           | Alan         |
+| FocusCoE breakouts+discussion                          | 40           | Alan (Peter) |
+| portability of lessons                                 | 10           | Alan         |
+| wrap-up/feedback                                       | 10           | Alan/Peter   |
 
 
 ## Preface
