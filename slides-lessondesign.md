@@ -40,6 +40,7 @@ Most people design lessons like this (from [TeachTogether](TeachTogether^)):
 
 ## this presentation!
 
+- (skipped) how learning works
 - before designing lessons (ground work)
 - lesson design (building the house)
 - (skipped) quality control
