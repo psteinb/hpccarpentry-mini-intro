@@ -45,7 +45,9 @@ Most people design lessons like this (from [TeachTogether](TeachTogether^)):
 - lesson design (building the house)
 - (skipped) quality control
 
-<span class="fab fa-tachometer-alt"></span>
+. . .
+
+Details and further reading: [Greg Wilson, Teaching Tech Together, 2019, CRC Press](https://teachtogether.tech/en/index.html#)
 
 # before designing lessons 
 
