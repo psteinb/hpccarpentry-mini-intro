@@ -84,6 +84,7 @@ Most people design lessons like this (from [TeachTogether](TeachTogether^)):
 
 - derived from and coupled to personas
 - optional: match formal approaches in day-to-day routines
+- watch out: learning objectives versus learning outcomes
 
 . . . 
 
