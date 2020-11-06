@@ -16,28 +16,45 @@ To prepare for the event, we would love if participants could bring along statis
 
 # Agenda
 
-| topic                                        | duration/min | speaker      |
-|:--------------------------------------------:|:------------:|:------------:|
-| [HPC Carpentry?](slides-hpccarpentry.html)   | 20           | Alan/Peter   |
-| Devising Material Overview                   | 20-30        | Peter        |
-| Review Preq/Learning Objectives in breakouts | 40           | Peter (Alan) |
-| Review Exercises in breakouts                | 40           | Peter (Alan) |
-| FocusCoE overview                            | 20           | Alan         |
-| FocusCoE breakouts+discussion                | 40           | Alan (Peter) |
-| portability of lessons                       | 10           | Alan         |
-| wrap-up/feedback                             | 10           | Alan/Peter   |
+| topic                                                  | duration/min | speaker      |
+|:------------------------------------------------------:|:------------:|:------------:|
+| Preface                                                | 2            | Peter        |
+| [HPC Carpentry?](slides-hpccarpentry.html)             | 20           | Alan/Peter   |
+| [Devising Material Overview](slides-lessondesign.html) | 20-30        | Peter        |
+| Review Preq/Learning Objectives in breakouts           | 40           | Peter (Alan) |
+| Review Exercises in breakouts                          | 40           | Peter (Alan) |
+| FocusCoE overview                                      | 20           | Alan         |
+| FocusCoE breakouts+discussion                          | 40           | Alan (Peter) |
+| portability of lessons                                 | 10           | Alan         |
+| wrap-up/feedback                                       | 10           | Alan/Peter   |
 
+
+## Preface
+
+Imagine I am asking you to create a lesson material to teach your HPC users about parallelisation which will later be incorporated and run every 6 months at your center. Consider the following:
+
+1. How many teaching hours do you think this material must encompass? In other words, how long do your leaners have to listen to you?
+2. How long will it take you to prepare this material?
+
+Each learner: Take a slip of paper and a pen. Note down the answers for the questions above.
 
 ## What is HPC Carpentry? (20 mins including discussion, [slides](slides-hpccarpentry.html))
 
 * Introduction to HPC Carpentry and what it's origins and goals are
 * What HPC Carpentry is *not*
+* how a hpccarpentry lesson is structured?
 
-## Devising Material Overview 
+## Devising Material Overview (20-30 minutes, [slides](slides-lessondesign.html))
 
-* introduce constructive alignment
-* discuss what learner profiles are/how to obtain them 
-* discuss cross checking 
+* how one typically teaches
+* before designing lessons 
+  + learner profiles are/how to obtain them
+  + learning objectives
+  + prequisites
+  + what facilities do lessons provide to make any of the above VC ready?
+* lesson design 
+  + introduce constructive alignment (top-down)
+  + backwards design (bottom-up)
 
 ## Review Preq/Learning Objectives in breakouts
 
@@ -85,3 +102,16 @@ Some possible points to reflect on are:
 ### How did we tackle lesson portability? (10 minutes)
 
 Looking over the strategies we used to allow us to make the lessons portable between resources.
+
+
+# How to use this repo
+
+This repo requires `pandoc` to translate the content from any markdown file to static html pages (which are part of this repo as well). To build, do the following:
+
+```
+$ make prepare (optional)
+# downloads reveal.js
+$ make 
+```
+
+Any files that match `slides-*.md` are the source code for the slidedecks created under `slides-*.html`. For an introduction on how to use pandoc+markdown to create HTML based reveal.js slidedecks, please readup on [pandoc's documentation on slide shows](https://pandoc.org/MANUAL.html#slide-shows).
