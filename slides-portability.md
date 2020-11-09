@@ -18,7 +18,13 @@ slideOptions:
 * Automated:
     * Configurable
     * There should be no changes needed to the lesson content
-  
+
+::: notes
+
+- Allow people to focus on worrying about their teaching
+
+:::
+
 ---
 
 ## How do we achieve lesson portability?
@@ -46,6 +52,16 @@ slideOptions:
 {{ site.local.prompt }}
 ```
 
+::: notes
+
+- Syntax is Jekyll, used by GitHub
+- Referencing has triggers
+- Note nested references
+- Use this as basis to define schedulers, etc.
+  - Focus on commonalities to make lesson writing easier
+
+:::
+
 ---
 
 ## How do we achieve lesson portability?
@@ -61,5 +77,14 @@ slideOptions:
   * make sure episodes requiring specific hardware are easily dropped
   * avoid giving counts (`N` gpus, `NN` cores, ...) in the lesson
   * When specific information is needed, make it clear we are using reference data
+
+::: notes
+
+- Nitty-gritty details of scheduler/environment are separated
+- Incorporate process distribution into the job scripts (will probably beed special
+  mention in lesson)
+- Include information on how to (re)generate the reference data
+
+:::
 
 :::

@@ -20,6 +20,14 @@ slideOptions:
   * Training registry
   * **Template training course(s)**
   
+::: notes
+
+- Workshops sustainability, pedagogy, co-design,...
+- Registry is about collecting CoE training events...and collaborating
+- Training course is about getting CoE applications used and used *well*
+
+:::
+
 ---
 
 ### Framework
@@ -37,6 +45,15 @@ slideOptions:
 
 :::
 
+::: notes
+
+- Let's not argue about tools and formatting
+- Requires person resources...and a driving community
+- There are commonalities that need to be introduced
+- Figure out effort budget
+
+:::
+
 ----
 
 ### Why LAMMPS?
@@ -46,6 +63,13 @@ slideOptions:
   - Different packages available
 - Scalable
 - Plugin support means many "added value" developers exist
+
+::: notes
+
+- Start with well-rounded use case (with good users, docs, etc.)
+- Developers do not (necessarily) know interior details
+
+:::
 
 ---
 
@@ -61,12 +85,26 @@ slideOptions:
   * Verify performance of LAMMPS
   * Trigger hardware support
   * Check scalability, identify (and mitigate) bottlenecks
-  
+
+::: notes
+
+- 1 day workshop for transitioning user
+
+:::
+
 ---
 
 ### Lesson walk through
 
 <iframe width="100%" height="800" src="https://fzj-jsc.github.io/tuning_lammps/" frameborder="0"></iframe>
+
+::: notes
+
+- Show lesson episodes
+- Gave it once as a dry run, realised it is not properly motivated
+- Point to where people can edit the page
+
+:::
 
 ---
 
