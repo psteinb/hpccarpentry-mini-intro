@@ -37,12 +37,10 @@ slideOptions:
 * Can then reference these in the lessons:
 ```bash
 # Include output of a bash command
-{% raw %}
 ~~~
 {% include {{ site.snippets }}/modules/available-modules.snip %}
 ~~~
 {: .language-bash}
-{% endraw %}
 
 # Reference a site variable
 {{ site.local.prompt }}
